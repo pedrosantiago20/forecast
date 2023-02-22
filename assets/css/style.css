@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
+
+
+* {
+    box-sizing: border-box;
+    outline: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #343D4B;
+    font-family: 'Montserrat';
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    margin-top: 10%;
+    margin-left: 30%;
+}
+
+.card1 {
+    width: 369px;
+    height: 498px;
+    border-radius: 30px;
+    position: absolute;
+    align-items: flex-start;
+    background: url(../img/rectangle.png), linear-gradient(152.19deg, rgba(136, 235, 239, 0.9) -0.04%, rgba(83, 91, 230, 0.9) 100%);
+    padding: 24px;
+    padding-bottom: 62px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.card2 {
+    width: 706px;
+    height: 466px;
+    background: #222831;
+    border-radius: 25px;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 37px;
+    padding-bottom: 41px;
+    margin-right: 0;
+    padding-top: 41px;
+    margin-left: 52px;
+}
+
+location {
+    display: flex;
+}
+
+img {
+    padding-right: 5px;
+    padding-top: 0;
+    margin: 0;
+}
+
+img#duas {
+    padding-right: 0;
+    padding-top: 0;
+    margin: 0;
+}
+
+h1 {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+
+    color: #FFFFFF;
+}
+
+h2 {
+    margin: 0;
+    padding-left: 0;
+    padding-top: 0;
+    padding-bottom: 8px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+
+    color: #FFFFFF;
+}
+
+h3 {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 2px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+
+    color: #FFFFFF;
+}
+
+h3#caps{
+    padding-left: 0;
+    padding-bottom: 5px;
+}
+
+h4{
+    padding-left: 0;
+    padding-bottom: 5px;
+    font-weight: 500;
+    text-align: right;
+
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 2px;
+
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+p {
+    padding: 0;
+    margin-top: 13px;
+    margin-bottom: 10px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+
+    color: #FFFFFF;
+}
+
+row2 {
+    width: 311px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+column {
+    display: flex;
+    flex-direction: column;
+}
+
+button {
+    margin-top: 15px;
+    width: 311px;
+    height: 41px;
+    border:none!important;
+    cursor:pointer;
+
+    background: linear-gradient(90.8deg, rgba(144, 217, 224, 0.9) 0.2%, rgba(84, 96, 230, 0.9) 100%);
+    border-radius: 10px;
+
+    padding: 0;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    color: white;
+}
+
+input {
+    width: 311px;
+    height: 41px;
+    margin-top: 90px;
+    background: #343D4B;
+    border: none;
+    border-radius: 10px;
+    font-size: 20;
+    color: white;
+    padding: 15px;
+
+    font-size: 15px;
+}

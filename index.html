@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Forecast</title>
+</head>
+<body>
+    <section class="container">
+        <div class="card1">
+            <row>
+                <h1 id="day-week">Day</h1>
+                <p id="day-month-year">00 Mon 0000</p>
+                <location>
+                    <img src="assets/img/location.svg" alt="">
+                    <p id="city">City, Country</p>
+                </location>
+            </row>
+            <row>
+                <img id="icon" src="assets/img/sun.svg" width="71px" height="71px">
+                <h2 id="temperature">0º C</h2>
+                <h3 id="weather">Weather</h3>
+            </row>
+        </div>
+        <div class="card2">
+            <column>
+                <row2>
+                    <row>
+                        <h3 id="caps">AIR PRESSURE</h3>
+                        <h3 id="caps">HUMIDITY</h3>
+                        <h3 id="caps">WIND</h3>
+                    </row>
+                    <row>
+                        <h4 id="pressure">0</h4>
+                        <h4 id="humidity">0%</h4>
+                        <h4 id="wind">0 km/h</h4>
+                    </row> 
+                </row2>
+                <input placeholder="Enter a city..." id="city-input"></input>
+                <button id="search">
+                    Change location
+                </button>
+            </column>
+        </div>
+    </section>
+    <script src="./assets/js/main.js"></script>
+</body>
+</html>
